@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            position:flex;
+        }
+
+        h1{
+            color:white;
+            text-align:left;
+            font-size:19px;
+            margin-top:30px;
+            margin-left:800px;
+        }
+
+        .fo{
+        text-align:left;
+        margin-top:0px;
+        color:#999999;
+        margin-left:800px;
+        }
+
+      
+
+        #im1{
+          display: block;
+        }
+
+        .a img{
+            max: width 100px;
+            height: auto;
+        }
+
+        .at{
+           position:absolute;
+           top:500px;
+           color:white;
+           padding:20px;
+        }
+
+       .at pre{
+           font: size 8px;
+        }
+        
+        #ai{
+           margin-left:800px;
+           margin-top:-150px;
+           width:11px;
+           height:110px;
+        }
+        
+        .ab table{
+           opacity:75%;
+           color:#999999;
+           justify-content: space-evenly;
+        }
+        .cont{
+  
+           color:#FFFFFF;
+           padding:20px;
+           display: flex;
+        }
+    
+        .cont img{
+           height:480px;
+           width:360px;
+        }
+
+        .cr{
+            position: relative;
+            top:100px;
+        }
+
+        .cr pre{
+            font:#FFFFFF;
+            opacity:50%;
+            font-size:16px;
+            font: weight 400px;
+        }
+
+        .cont h1{
+            color: #999999;
+            font-style:italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:10px;
+            margin-left:75px;
+        }
+
+        .ad h1{
+            color: #999999;
+            text-align:left;
+            opacity:50%;
+            font-size: 16px;
+            font:weight 400px;
+            margin-left:650px;
+        }
+
+        .ad a{
+            color:blue;
+            font-size:50px;
+            margin-left:600px;
+            text-decoration:none; 
+            font-size:19px;
+            font:weight 400px;
+            margin-left:650px;
+        }
+        
+        .ae h1{
+            color: #999999;
+            font-size:11px;
+            text-align: right;
+            margin-right:100px;
+            font-family:Arial, sans-serif;
+            font: weight 400px;
+        }
+
+        .ae h2{
+            color: #999999;
+            font-size:17px;
+            text-align: right;
+            margin-right:100px;
+            font-family:Arial, sans-serif;
+            font: weight 400px;
+        }
+
+        .ae h3{
+            color: #999999;
+            font-size:14px;
+            text-align: right;
+            margin-right:100px;
+            font-family:Arial, sans-serif;
+            font;
+        }
+
+        #i3{
+            width:363x;
+            height:486px;
+            margin-left:100px;;
+        }
+        
+        #i4{
+            width:365px;
+            height:305px;
+            margin-left:50px;
+            margin-bottom:180px;
+        }
+        .af h1{
+            position:absolute;
+            color:blue;
+            margin-left:500px;
+            margin-top:-170px;
+            font-size:11px;
+        }
+
+        .af h2{
+            position:absolute;
+            color:#999999;
+            margin-left:500px;
+            margin-top:-140px;
+            font-size:17px;
+
+        }
+
+         
+        #i5{
+            width:360px;
+            height:474px;
+            margin-left:50px;
+            margin-bottom:20px;
+        }
+
+        #i6{
+            width:330px;
+            height:465px;
+            margin-left:100px;
+            margin-bottom:20px;
+            margin-top:30px;
+        }
+
+        #i7{
+            width:360px;
+            height:341px;
+            margin-left:50px;
+            margin-bottom:20px;
+            margin-top:30px;
+        }
+
+        .af h3{
+            position:absolute;
+            color:blue;
+            margin-left:900px;
+            margin-top:-470px;
+            font-size:11px;
+        }
+
+        .af h4{
+            position:absolute;
+            color:#999999;
+            margin-left:900px;
+            margin-top:-450px;
+            font-size:17px;
+        }
+        
+        .af h2{
+            position:absolute;
+            color:#999999;
+            margin-left:500px;
+            margin-top:-140px;
+            font-size:17px;
+        }
+
+        .af a{
+            color:blue;
+            text-decoration:none; 
+            font-size:19px;
+            font:weight 400px;
+        }
+
+        #i8{
+            width:339px;
+            height:433px;
+            margin-left:90px;
+            margin-bottom:20px;
+            margin-top:30px;
+        }
+
+        .ag h1{
+            position:absolute;
+            color:#999999;
+            margin-left:500px;
+            margin-top:-400px;
+            font-size:11px;
+        }
+
+        .ag h2{
+            position:absolute;
+            color:#999999;
+            margin-left:500px;
+            margin-top:-350px;
+            font-size:17px;
+        }
+
+        #i9{
+            width:353px;
+            height:586px;
+            margin-left:450px;
+            margin-bottom:-200px;
+            margin-top:0px;
+        }
+
+        .ag h3{
+            position:absolute;
+            color:#999999;
+            margin-left:85px;
+            margin-top:10px;
+            font-size:17px;
+            text-align:left;
+        }
+
+        .ag a{
+            color:blue;
+            text-decoration:none; 
+            font-size:19px;
+            font:weight 400px;
+        }
+        
+        #i2{
+            width:11px;
+            height:110px;
+            margin-left:850px;
+            margin-bottom:-170px;
+            font-size:17px;
+            text-align:left;
+        }
+
+        .ag h4{
+            position:absolute;
+            color:#999999;
+            margin-left:85px;
+            margin-top:300px;
+            font-size:11px;
+            text-align:left;
+        }
+
+        #i10{
+            width:366px;
+            height:401px;
+            margin-left:85px;
+            margin-top:320px;
+        }
+
+        .ag h5{
+            position:absolute;
+            color:#999999;
+            margin-left:400px;
+            margin-top:-420px;
+            font-size:17px;
+            text-align:left;  
+        }
+
+        #i11{
+            width:335px;
+            height:435px;
+            margin-left:420px;
+            margin-bottom:120px;
+        }
+
+        .ag h6{
+            position:absolute;
+            color:blue;
+            margin-left:420px;
+            margin-top:-80px;
+            font-size:11px;
+        }
+
+        .ag p{
+            position:absolute;
+            color:#999999;
+            margin-left:725px;
+            margin-top:-80px;
+            font-size:17px;
+            text-align:left;  
+        }
+
+        .ah a{
+            color:blue;
+            text-decoration:none; 
+            font-size:19px;
+            font:weight 400px;
+            margin-left:725px;
+        }
+
+        .aj h1{
+            position:absolute;
+            color:#999999;
+            margin-left:100px;
+            margin-top:120px;
+            font-size:11px;
+        }
+
+        .aj h2{
+            position:absolute;
+            color:#999999;
+            margin-left:100px;
+            margin-top:140px;
+            font-size:17px;
+        }
+
+        .aj h3{
+            position:absolute;
+            color:#999999;
+            margin-left:100px;
+            margin-top:160px;
+            font-size:15px;
+        }
+
+        #i12{
+            width:640px;
+            height:480px;
+            margin-left:420px;
+            margin-bottom:120px;
+
+        }
+
+        .aj a{
+            position:absolute;
+            color:blue;
+            text-decoration:none; 
+            font-size:19px;
+            font:weight 400px;
+            margin-top:300px;
+            margin-left:100px;
+        }
+
+        .ak h1{
+            position:absolute;
+            color:#999999;
+            margin-left:100px;
+            margin-top:-200px;
+            font-size:19px;
+        }
+
+        .ak pre{
+            position:absolute;
+            color:#999999;
+            margin-left:100px;
+            margin-top:-150px;
+            font-size:13px;
+        }
+
+        #ii1{
+            margin-bottom:50px;
+            margin-right:60px;
+        }
+</style>
+</head>
+<body>
+    <div class="a">
+        <img src="1.jpg">
+            <div class="at">
+            <img id="ai" src="2.jpg">
+    <pre>     Portrait Photography
+                                                                                                      <font color="#00263A"><strong>27-30</strong></font>
+     JEFF MORGAN WORKSHOPS                                                                            <Font color="white" size="50"><Strong>MAY</Strong></Font></pre>
+     
+            </div> 
+    </div>
+
+    <div class="ab">
+        <p><img src="11.png"></p>
+        <table style="width:20%">
+            <tr><td>&nbsp;&nbsp;</td>
+            <td>Learn how to take beautiful portraits with minimal equipment; how light affects your images and  how to make the very best of any location.</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>Learn how to take full control of lighting of your subject and the background in your images, from flattering portraits to dramatic shots.</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>In the past few years the cost of studio lighting has fallen dramatically and for a very modest outlay you can set up your own home studio.</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>Learn how to take beautiful portraits with minimal equipment; how light affects your images and  how to make the very best of any location.</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            </table> 
+    </div>
+
+    <div class="cont">
+        <div class="im">
+            <h1>About Jeff Workshop</h1><br>
+                <img id="im1" src="image1.jpg">
+        </div>
+            <div class="cr"><pre>                    Jeff Morgan is a New York based photographer
+                    specializing in portraits, people and events. He has
+                    completed countless location and studio assignments for a
+                    wide range of corporate, editorial, institutional
+                    and non-profit clients.<br><br>&nbsp;&nbsp;
+                    To provide high-quality education and training in
+                    photography with Courses and Workshops designed to
+                    inspire you and help you achieve your creative goals. We
+                    strongly believe that you have the potential not only of
+                    success&nbsp;but also of fulfilment and greatness as creative
+                    individuals.<br></pre>
+            </div>
+    </div>
+    
+    <div class="ad"> 
+         <h1>At the London School of Photography, our vision is to be a trusted<br>source in photographic education and training, understanding and<br>responding to your needs with products and services that provide true<br>value and bottom line results.</h1>
+         <br>
+         <h2><a href="website.html">READ MORE</a></h2><br><br><br><br></div>
+    </div>
+    
+    <div class="ae">
+        <h1>Portrait Photography Workshop</h1>
+        <h2><br>ONE-DAY PORTRAIT PHOTOGRAPHY</h2>
+        <h3>Join us on this fantastic full day (6hrs) ACTION dog photography workshop with specialist canine<br>photographer Mary Coe who will be our guest tutor for the day. Working with Mary's own dogs our day will<br>be run from her home in Worthing. We will cover action photography in the wood a short walk away, followed<br>by a fabulous a water session in the sea (with lots of running and splashing) just two minutes away before<br>returning to review the photographs and to discuss editing.</h3><br><br><br>
+    </div>
+
+    <div class="af">
+        <img src="image3.jpeg" id="i3">
+        <img src="image4.jpeg" id="i4">
+        <h1>27</h1>
+        <h2>This workshop is limited to just 6 people<br>and will have a backstop date of April<br>7th in the event of bad weather.</h2>
+        <img src="image5.jpeg" id="i5"><br>
+        <img src="image6.jpeg" id="i6">
+        <img src="image7.jpeg" id="i7">
+        <h3>28</h3>
+        <h4>This workshop is limited to just 5 people<br>and will have a backstop date of 25th May<br>in the event of bad weather (either too hot<br>for the dogs or too wet).  Skill level 3.<br>Joining instructions and directions will<br>be e mailed out individually<br>near the time. This workshop runs from<br>10am until 4pm.
+        <br><br><br><br><a href="website.html">READ MORE</a></h4><br><br>
+    </div>
+    
+    <div class="ag">
+        <img src="image8.png" id="i8">
+        <h1>Unique Methodology</h1>
+        <h2>Conventional educational methods often leave you<br>having to remember the concepts you were taught or<br>trying to figure out how to apply them. The London<br>School of Photography method leaves you applying what<br>you learned naturally and without effort.<br><br><br>Similar to anything you have already mastered, in our<br>photography courses and workshops you learn by direct<br>personal discovery. From this experience, a new skill is<br>yours forever.</h2>
+        <img src="image9.jpeg" id="i9">
+        <h3>To provide high-quality education and training in photography with<br>Courses and Workshops designed to inspire you and help you achieve<br>your creative goals. We strongly believe that you have the potential not<br>only of success but also of fulfilment and greatness as creative<br>individuals.<br><br><br><br><a href="website.html">READ MORE</a><br><br></h3>
+        <img src="2.jpg" id="i2">
+        <h4>Theme: Gun Dog Day</h4>
+        <img src="image2.jpeg" id="i10">
+        <h5>A dog photography workshop with specialist canine<br>photographer Caroline Dell who will be our guest tutor for the day.<br>Working with Caroline's own dogs our day will be based at her<br>studio barn near Sheffield.<br><br><br>We will cover natural light, Off camera flash, studio work, action<br>photography with a water session. Caro will also demo her own<br>post-processing technique. Joining instructions and directions will<br>be e mailed out individually near the time. This workshop runs from<br>10am until 4pm.</h5>
+        <img src="image10.jpeg" id="i11">
+        <h6>29</h6>
+        <p>This workshop is limited to just 5 people and will have a backstop date<br>of 23rd September in the event of bad weather (either too hot for the<br>dogs or too wet).  Skill level 3.  Joining instructions and directions will<br>be e mailed out individually near the time. This workshop runs from<br>10am until 4pm.</p>
+        </div>
+    
+    <div class="ah">
+    <br><br><br><br><a href="website.html">READ MORE</a><br><br>
+    </div>
+
+    <div class="aj">
+        <h1>Jeff Morgan</h1><br><br>
+        <h2>BIOGRAPHY</h2><br><br>
+        <h3>From a young age Andrés had an affinity for the arts, taking classes in painting,<br>sculpture and music beginning at the age of six to motion graphics and 3D<br>animation as a teenager. In 1999, he graduated top of his class from the Art<br>Institute of Medellin with a B.A. in Advertising and decided to move to the U.S.<br>Miami, his home for 17 years, was the place where he embarked on his<br>photography career after working for a multi-media company.</h3>
+        <a href="website.html">READ MORE</a>
+        <img src="image11.jpeg" id="i12">
+        <img src="2.jpg" id="ii1">
+    </div>
+    
+    <div class="ak">
+    <h1><br><br>Contact Us</h1>  
+    <pre>
+
+
+
+Jeff School of Photography                                                            
+The Boutique Workplace
+5 Southampton Place,
+London WC4A 2A
+
+Monday to Sunday & Bank Holidays: 
++44 (0) 7976 762 156
+Email: jeff@info.com</pre>  
+
+</div>
+
+<h1>Write Your Feedback</h1>
+<div class="fo">
+    <form id="form1">
+        <table>
+            <tr>
+                <td><label for="name">Name </label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email </label></td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address </label></td>
+                <td><textarea id="address" name="address"></textarea></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>  
+</div>
+
+
+</body>
+</html>
